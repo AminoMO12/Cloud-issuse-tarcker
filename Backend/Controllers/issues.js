@@ -1,4 +1,4 @@
-const issueService = require("../services/issueService");
+const issueService = require("../services/issuesService");
 const priorities = new Set(["Low", "Medium", "High"]);
 const statuses = new Set(["Open", "Resolved"]);
 
